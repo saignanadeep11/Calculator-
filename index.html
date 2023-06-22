@@ -3,7 +3,7 @@
 <head> 
   <meta charset="UTF-8"> 
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-  <meta name="viewport" content="width=device-width, initial-scale=0.7"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <title>Calculator</title> 
   <link rel="stylesheet" href="cal.css"> 
 </head> 
@@ -12,34 +12,34 @@
 <div class="body"> 
   <input id="input-button" type="text" placeholder="0"> 
   <div class="buttons"> 
-    <button id="clear-button">ACC</button> 
-    <button id="delete-button">DEL</button> 
-    <button id="percentage-button">%</button> 
-    <button id="divide-button">/</button> 
+    <button >AC</button> 
+    <button >DEL</button> 
+    <button >%</button> 
+    <button >/</button> 
   </div> 
   <div> 
-    <button id="seven-button">7</button> 
-    <button id="eight-button">8</button> 
-    <button id="nine-button">9</button> 
-    <button id="plus-button">+</button> 
+    <button >7</button> 
+    <button >8</button> 
+    <button >9</button> 
+    <button >+</button> 
   </div> 
   <div class="buttons"> 
-    <button id="four-button">4</button> 
-    <button id="five-button">5</button> 
-    <button id="six-button">6</button> 
-    <button id="minus-button">-</button> 
+    <button >4</button> 
+    <button >5</button> 
+    <button >6</button> 
+    <button >-</button> 
   </div> 
   <div class="buttons"> 
-    <button id="one-button">1</button> 
-    <button id="two-button">2</button> 
-    <button id="three-button">3</button> 
-    <button id="multiply-button">*</button> 
+    <button >1</button> 
+    <button >2</button> 
+    <button >3</button> 
+    <button>*</button> 
   </div> 
   <div class="buttons"> 
-    <button id="double-zero-button">00</button> 
-    <button id="zero-button">0</button> 
-    <button id="decimal-button">.</button> 
-    <button id="equals-button">=</button> 
+    <button >00</button> 
+    <button >0</button> 
+    <button >.</button> 
+    <button >=</button> 
   </div> 
 </div> 
 
@@ -52,7 +52,7 @@
       var symbol = this.textContent;
       try{
       switch (symbol) {
-        case 'ACC':
+        case 'AC':
           input.value = '';
           break;
         case 'DEL':
